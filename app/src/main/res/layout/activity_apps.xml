@@ -11,10 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="65dp"
-        android:text="Entertainment:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/entertainment"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="93dp" />
 
@@ -23,10 +22,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="173dp"
-        android:text="Social Media:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/social_media"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="209dp" />
 
@@ -34,14 +32,24 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="257dp"
-        android:text="New Catergory+"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/new_category"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/categoryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="@string/new_category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="562dp" />
 
     <Button
         android:id="@+id/backButton"
@@ -49,8 +57,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="179dp"
-        android:text="Back"
+        android:layout_marginBottom="30dp"
+        android:text="@string/back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="562dp" />
@@ -65,7 +73,7 @@
         android:layout_marginStart="2dp"
         android:layout_marginLeft="2dp"
         android:layout_marginTop="3dp"
-        android:text="Apps Screen"
+        android:text="@string/apps_screen"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="2dp" />
 </RelativeLayout>
