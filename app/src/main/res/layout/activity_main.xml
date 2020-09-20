@@ -24,7 +24,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="166dp"
         android:layout_marginLeft="166dp"
-        android:text="@string/apps" />
+        android:text="@string/apps"/>
 
 
 </RelativeLayout>
